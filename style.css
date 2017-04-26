@@ -1,0 +1,78 @@
+header,
+nav,
+body{
+	display: flex;
+	flex-direction: column;
+}
+
+header{
+	width: 100%;
+}
+
+aside{
+	width: 20%;
+}
+
+main{
+	width: 80%;
+}
+
+.wrapper{
+	display: flex;
+}
+
+@media (max-width: 320px){
+	.wrapper{
+		flex-direction: column;
+	}
+
+	aside,
+	main{
+		width: 100%;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+header,
+nav, 	
+aside,
+main,
+footer{
+	color: white;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	font-family: 'lato', sans-serif;
+}
+
+
+
+header{
+	background: darkblue;
+}
+
+nav {
+	background: steelblue;
+}
+
+aside{
+	background: lightblue;
+}
+
+main{
+	background: purple;
+}
+
+footer {
+	background: aqua;
+}
